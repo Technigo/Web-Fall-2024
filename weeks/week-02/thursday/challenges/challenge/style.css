@@ -1,0 +1,72 @@
+.grid-parent {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: 40% 25% 25% 10%;
+  border: 5px solid black;
+}
+
+.grid-item {
+  background-color: lightgray;
+  border: 5px solid black;
+}
+
+/* INSTRUCTIONS
+ *
+ * 1) Fix the painting by adding the
+ *    right grid-column to each item
+ *
+ * 2) If you feel it's too easy, feel
+ *    free to play around and add more
+ *    divs, columns and rows to create
+ *    your own masterpiece 🎨
+ *
+ * Inspo: https://css-tricks.com/mondrian-art-in-css-from-5-code-artists/
+ * Credit: https://medium.com/@castonboyd/start-simple-with-css-grid-with-mondrians-art-for-absolute-beginners-70f28a4f84a2
+ */
+
+.grid-item.one-red {
+  background-color: #B33A27;
+  grid-row: 1 / 2;
+}
+
+.grid-item.two-white {
+  background-color: #F6F5F6;
+  grid-row: 1 / 2;
+}
+
+.grid-item.three-white {
+  background-color: #F6F5F6;
+  grid-row: 2 / 3;
+}
+
+.grid-item.four-white {
+  background-color: #F6F5F6;
+  grid-row: 2 / 3;
+}
+
+.grid-item.five-yellow {
+  background-color: #F0C432;
+  grid-row: 3 / 5;
+}
+
+.grid-item.six-white {
+  background-color: #F6F5F6;
+  grid-row: 3 / 5;
+}
+
+.grid-item.seven-blue {
+  background-color: #2C395E;
+  grid-row: 3 / 4;
+}
+
+.grid-item.eight-white {
+  background-color: #F6F5F6;
+  grid-row: 3 / 5;
+}
+
+.grid-item.nine-white {
+  background-color: #F6F5F6;
+  grid-row: 4 / 5;
+}
