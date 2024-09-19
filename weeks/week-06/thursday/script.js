@@ -57,7 +57,9 @@ const getDogs = (dogsArray) => {
         <p>${dog.name}</p>
         <img src=${dog.img} alt=${dog.name} />
         <p>${dog.puppy ? 'puppy' : ''}</p>
-        <button id="faveBtn" onclick="addToFavourites('${dog.name}')">add to favourites</button>
+        <button id="faveBtn" onclick="toggleFavourite('${dog.name}')">
+          ${favouriteDogs.includes(dog.name) ? 'remove from' : 'add to'} favourites
+        </button>
       </div>`
   })
 }
@@ -78,9 +80,24 @@ const filterDogs = () => {
   }
 }
 
-const addToFavourites = (faveDog) => {
-  console.log('you are my fave! 🐶', faveDog)
-  favouriteDogs.push(faveDog)
+const toggleFavourite = (faveDog) => {
+  //1. check if the dog is already in the fave list
+  const dogIndex = favouriteDogs.indexOf(faveDog)
+  console.log('index is?', dogIndex)
+
+  // index -1 indicates that the dog is not in the array.
+  if (dogIndex === -1) {
+    // we want to add to the faves list.
+    favouriteDogs.push(faveDog)
+
+  } else {
+    // we want to remove from the list
+    // use dogIndex to find the position of the dog
+    // use splice method to remove   splice(start, deleteCount)
+    favouriteDogs.splice(dogIndex, 1)
+
+  }
+
   console.table(favouriteDogs)
   getFavouriteDogs()
 }
@@ -94,8 +111,6 @@ const getFavouriteDogs = () => {
   })
 }
 
-
 filterDropdown.addEventListener('change', filterDogs)
-
 
 getDogs(DOGS)
