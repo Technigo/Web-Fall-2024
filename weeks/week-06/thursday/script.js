@@ -93,9 +93,8 @@ const toggleFavourite = (faveDog) => {
   } else {
     // we want to remove from the list
     // use dogIndex to find the position of the dog
-    // use splice method to remove   splice(start, deleteCount)
+    // use splice method to remove -> splice(startIndex, deleteCount)
     favouriteDogs.splice(dogIndex, 1)
-
   }
 
   console.table(favouriteDogs)
