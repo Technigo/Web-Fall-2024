@@ -1,0 +1,129 @@
+{
+  "pokemons": [
+    {
+      "name": "Bulbasaur",
+      "id": 1,
+      "height": 0.7,
+      "weight": 6.9,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Ivysaur",
+      "id": 2,
+      "height": 1,
+      "weight": 13,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Venusaur",
+      "id": 3,
+      "height": 2,
+      "weight": 100,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Charmander",
+      "id": 4,
+      "height": 0.6,
+      "weight": 8.5,
+      "types": [
+        "fire"
+      ],
+      "weeknesses": [
+        "water",
+        "ground",
+        "rock"
+      ],
+      "category": "lizard"
+    },
+    {
+      "name": "Charmeleon",
+      "id": 5,
+      "height": 1.1,
+      "weight": 19,
+      "types": [
+        "fire"
+      ],
+      "weeknesses": [
+        "water",
+        "ground",
+        "rock"
+      ],
+      "category": "flame"
+    },
+    {
+      "name": "Charizard",
+      "id": 6,
+      "height": 1.7,
+      "weight": 90.5,
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "weeknesses": [
+        "water",
+        "electric",
+        "rock"
+      ],
+      "category": "flame"
+    },
+    {
+      "name": "Squirtle",
+      "id": 7,
+      "height": 0.5,
+      "weight": 9,
+      "types": [
+        "water"
+      ],
+      "weeknesses": [
+        "grass",
+        "electric"
+      ],
+      "category": "tiny turtle"
+    },
+    {
+      "name": "Wartortle",
+      "id": 8,
+      "height": 1,
+      "weight": 22.5,
+      "types": [
+        "water"
+      ],
+      "weeknesses": [
+        "grass",
+        "electric"
+      ],
+      "category": "turtle"
+    }
+  ]
+}

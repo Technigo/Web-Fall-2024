@@ -1,0 +1,21 @@
+/* In this file, you can put the css that is used across the app, 
+such as font family, specific styling for all h1, h2 etc. */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* You could also put all styling here like this 👇, 
+but in bigger projects we encourage to keep the styling split up into components as well */
+.header {
+  background: pink;
+}
