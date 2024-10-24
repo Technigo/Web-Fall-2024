@@ -30,7 +30,7 @@ button {
   font-family: "Montserrat";
 }
 
-select {
+input, select, textarea {
   border: none;
   border-radius: 4px;
   color: rgb(0, 24, 164);
@@ -45,4 +45,13 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+textarea {
+  height: 80px;
+}
+
+label {
+  display: block;
+  max-width: 300px;
 }

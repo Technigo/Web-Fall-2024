@@ -1,5 +1,6 @@
 import { CountriesFinished } from './components/CountriesFinished'
 import { CountriesPracticeStarterCode } from './components/CountriesPracticeStarterCode'
+import { Text } from './components/Text'
 import { Username } from './components/Username'
 import { Word } from './components/Word'
 
@@ -13,6 +14,7 @@ const App = () => {
       <Username />
       {/* <CountriesFinished /> */}
       <CountriesPracticeStarterCode />
+      <Text />
     </>
   )
 }
