@@ -1,0 +1,36 @@
+.card {
+  gap: 24px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 10px solid goldenrod;
+  border-left: 10px solid goldenrod;
+}
+
+.article {
+  grid-column: span 4;
+}
+
+.project {
+  grid-column: span 8;
+  display: flex;
+}
+
+img.article {
+  width: 100%;
+}
+
+img.project {
+  height: 300px;
+}
+
+img.pink-border {
+  border-color: hotpink;
+}
+
+img.blue-border {
+  border-color: blue;
+}
