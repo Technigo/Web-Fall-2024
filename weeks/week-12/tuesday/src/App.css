@@ -1,0 +1,19 @@
+:root {
+  /* COLORS */
+  --color-primary: #fd6f00;
+  --color-secondary: #202020;
+  --color-neutral: #fff;
+
+  /* TYPOGRAPHY */
+  --font-size-h1: 5rem;
+
+  /* BREAKPOINTS */
+  --breakpoint-sm: 640px;
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  :root {
+    --font-size-h1: 6.25rem;
+  }
+}

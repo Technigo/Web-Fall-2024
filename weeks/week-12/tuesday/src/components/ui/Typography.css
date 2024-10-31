@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Kulim+Park:ital,wght@0,200;0,400;1,600&family=Modak&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.heading1 {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.heading2 {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.orange {
+  color: var(--color-primary);
+  /* using our variable from global styling */
+}
