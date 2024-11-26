@@ -1,0 +1,41 @@
+{
+  "name": "error-messages-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "packageManager": "pnpm@8.15.6",
+  "devDependencies": {
+    "@total-typescript/exercise-cli": "^0.11.0",
+    "@types/node": "^20.10.3",
+    "jsdom": "^25.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.3.0",
+    "vite-tsconfig-paths": "^5.0.0",
+    "vitest": "^2.0.0"
+  },
+  "scripts": {
+    "exercise": "tt-cli run",
+    "e": "npm run exercise",
+    "solution": "tt-cli run --solution",
+    "s": "npm run solution",
+    "ci": "(cd scripts/tests && npx vitest run)",
+    "update-snapshots": "(cd scripts/tests && npx vitest run -u)",
+    "prepare": "tt-cli prepare-stackblitz",
+    "e-001": "tt-cli run 001",
+    "s-001": "tt-cli run 001 --solution",
+    "e-002": "tt-cli run 002",
+    "s-002": "tt-cli run 002 --solution",
+    "e-003": "tt-cli run 003",
+    "s-003": "tt-cli run 003 --solution",
+    "e-004": "tt-cli run 004",
+    "s-004": "tt-cli run 004 --solution",
+    "e-005": "tt-cli run 005",
+    "s-005": "tt-cli run 005 --solution",
+    "e-006": "tt-cli run 006",
+    "s-006": "tt-cli run 006 --solution",
+    "e-007": "tt-cli run 007",
+    "s-007": "tt-cli run 007 --solution",
+    "e-008": "tt-cli run 008",
+    "s-008": "tt-cli run 008 --solution"
+  },
+  "type": "module"
+}
