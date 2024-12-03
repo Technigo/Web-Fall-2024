@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Catan",
+    "id": 1,
+    "category": "Strategy",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "averagePlaytime": 90,
+    "description": "A resource-trading game where players settle and develop the island of Catan."
+  },
+  {
+    "name": "Ticket to Ride",
+    "id": 2,
+    "category": "Family",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "averagePlaytime": 60,
+    "description": "A railway-themed game where players build train routes across maps."
+  },
+  {
+    "name": "Pandemic",
+    "id": 3,
+    "category": "Cooperative",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 45,
+    "description": "Players work together to stop the outbreak of diseases around the world."
+  },
+  {
+    "name": "Carcassonne",
+    "id": 4,
+    "category": "Tile Placement",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "averagePlaytime": 35,
+    "description": "Players build a medieval landscape by placing tiles and claiming features."
+  },
+  {
+    "name": "Terraforming Mars",
+    "id": 5,
+    "category": "Strategy",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "averagePlaytime": 120,
+    "description": "Players compete to transform Mars into a habitable planet."
+  },
+  {
+    "name": "Wingspan",
+    "id": 6,
+    "category": "Engine Building",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "averagePlaytime": 70,
+    "description": "A bird-themed game where players attract birds to their wildlife preserves."
+  },
+  {
+    "name": "7 Wonders",
+    "id": 7,
+    "category": "Card Drafting",
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "averagePlaytime": 30,
+    "description": "Players build ancient civilisations through drafting cards and managing resources."
+  },
+  {
+    "name": "Gloomhaven",
+    "id": 8,
+    "category": "Dungeon Crawl",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "averagePlaytime": 120,
+    "description": "A campaign-driven cooperative dungeon-crawling game with evolving storylines."
+  },
+  {
+    "name": "Splendor",
+    "id": 9,
+    "category": "Card Drafting",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 30,
+    "description": "A resource collection game where players acquire gems to develop cards."
+  },
+  {
+    "name": "Dominion",
+    "id": 10,
+    "category": "Deck Building",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 30,
+    "description": "Players compete to build the most effective deck of cards."
+  },
+  {
+    "name": "Azul",
+    "id": 11,
+    "category": "Tile Placement",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 45,
+    "description": "Players draft tiles to decorate a Portuguese palace."
+  },
+  {
+    "name": "Scythe",
+    "id": 12,
+    "category": "Strategy",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "averagePlaytime": 115,
+    "description": "An alternate-history game of farming, combat, and resource control."
+  },
+  {
+    "name": "Codenames",
+    "id": 13,
+    "category": "Party",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "averagePlaytime": 15,
+    "description": "Players give clues to guess words on a board while avoiding others."
+  },
+  {
+    "name": "Betrayal at House on the Hill",
+    "id": 14,
+    "category": "Horror",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "averagePlaytime": 60,
+    "description": "A cooperative exploration game with a twist where one player becomes a traitor."
+  },
+  {
+    "name": "Risk",
+    "id": 15,
+    "category": "Strategy",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "averagePlaytime": 120,
+    "description": "Players compete to conquer territories on a world map."
+  },
+  {
+    "name": "The Resistance",
+    "id": 16,
+    "category": "Social Deduction",
+    "minPlayers": 5,
+    "maxPlayers": 10,
+    "averagePlaytime": 30,
+    "description": "A game of deception where players are rebels or spies completing missions."
+  },
+  {
+    "name": "King of Tokyo",
+    "id": 17,
+    "category": "Dice",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "averagePlaytime": 30,
+    "description": "Players take on the role of monsters battling to become King of Tokyo."
+  },
+  {
+    "name": "Patchwork",
+    "id": 18,
+    "category": "Abstract",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "averagePlaytime": 30,
+    "description": "A two-player game where players build a quilt with tiles."
+  },
+  {
+    "name": "Tokaido",
+    "id": 19,
+    "category": "Set Collection",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "averagePlaytime": 45,
+    "description": "Players travel along Japan’s Tokaido road collecting experiences."
+  },
+  {
+    "name": "Agricola",
+    "id": 20,
+    "category": "Strategy",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "averagePlaytime": 120,
+    "description": "Players build and develop their own farms."
+  },
+  {
+    "name": "Everdell",
+    "id": 21,
+    "category": "Worker Placement",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "averagePlaytime": 80,
+    "description": "A woodland-themed game where players develop their own forest city."
+  },
+  {
+    "name": "Root",
+    "id": 22,
+    "category": "Asymmetrical",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 90,
+    "description": "Players control factions vying for control of a woodland area."
+  },
+  {
+    "name": "Clue",
+    "id": 23,
+    "category": "Mystery",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "averagePlaytime": 45,
+    "description": "A murder mystery game where players solve the case through deduction."
+  },
+  {
+    "name": "Mysterium",
+    "id": 24,
+    "category": "Cooperative",
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "averagePlaytime": 42,
+    "description": "Players work together to solve a murder using psychic clues."
+  },
+  {
+    "name": "Love Letter",
+    "id": 25,
+    "category": "Card Game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "averagePlaytime": 20,
+    "description": "A quick card game about delivering a love letter to the princess."
+  }
+]
